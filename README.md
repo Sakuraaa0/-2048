@@ -6,4 +6,4 @@ Windows10 Qt Creator
 ## （3）	数据文件：
 ① archivelist.txt 存档信息文件 ② scorelist.txt 分数信息文件 ③ user.txt 用户信息文件
 ## （4）	运行步骤：
-①点击工程文件2048game.pro启动Qt Creator，构建并运行 ②运行打包文件下的2048game.exe
+①点击工程文件2048game.pro启动Qt Creator，构建并运行 ②运行可执行文件下的2048game.exe
