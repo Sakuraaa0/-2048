@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/windowicon.png</file>
+        <file>image/load.png</file>
+        <file>image/welcome.jpg</file>
+        <file>logo.ico</file>
+    </qresource>
+</RCC>

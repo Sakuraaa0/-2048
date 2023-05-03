@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Welcome</class>
+ <widget class="QWidget" name="Welcome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Welcom to 2048</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Welcome{
+	border-image: url(:/image/welcome.jpg);
+	background-image: url(:/image/welcome.jpg);
+}</string>
+  </property>
+  <widget class="QPushButton" name="start">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>240</y>
+     <width>200</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(9, 12, 17);color:#FFFFFF;border-radius:3px;}QPushButton:hover{background: rgb(64, 73, 82);color:#FFFFFF;border-radius:3px;}QPushButton:pressed {padding-left:1px;  padding-top:1px;</string>
+   </property>
+   <property name="text">
+    <string>Sign in/Start Play</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="about">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>340</y>
+     <width>200</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(9, 12, 17);color:#FFFFFF;border-radius:3px;}QPushButton:hover{background: rgb(64, 73, 82);color:#FFFFFF;border-radius:3px;}QPushButton:pressed {padding-left:1px;  padding-top:1px;</string>
+   </property>
+   <property name="text">
+    <string>About 2048</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ranklist">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>440</y>
+     <width>200</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(9, 12, 17);color:#FFFFFF;border-radius:3px;}QPushButton:hover{background: rgb(64, 73, 82);color:#FFFFFF;border-radius:3px;}QPushButton:pressed {padding-left:1px;  padding-top:1px;</string>
+   </property>
+   <property name="text">
+    <string>View RankList</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Consolas</family>
+     <pointsize>27</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(116, 116, 124);background:rgb(237, 236, 241);border-radius:15px;</string>
+   </property>
+   <property name="text">
+    <string>2048</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>231</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: ;border: 5px; solid ;border-radius: 10px</string>
+   </property>
+   <property name="text">
+    <string>Wlecome to the 2048!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quit">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>540</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(9, 12, 17);color:#FFFFFF;border-radius:3px;}QPushButton:hover{background: rgb(64, 73, 82);color:#FFFFFF;border-radius:3px;}QPushButton:pressed {padding-left:1px;  padding-top:1px;</string>
+   </property>
+   <property name="text">
+    <string>Quit Game</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
