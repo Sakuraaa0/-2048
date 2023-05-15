@@ -15,7 +15,7 @@
 #include "rank.h"
 #include"ai.h"
 
-//美化用的stylesheet
+//美化用的stylesheet类
 #define LABLESTYLE "QLabel {color: rgb(240,226,213);background: rgb(187,173,160);border-radius: 5px;}"
 #define BTNSTYLE "QPushButton {color: rgb(240,226,213);background: rgb(187,173,160);border-radius: 5px;} QPushButton:pressed{color: white;background: orange;border-radius: 5px;}"
 
